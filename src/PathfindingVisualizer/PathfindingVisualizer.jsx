@@ -84,7 +84,7 @@ export default class PathfindingVisualizer extends Component {
   }
 
   visualizeDijkstra() {
-    this.setState({ topMessage: "Creator : Suhaan" });
+    this.setState({ topMessage: "Creator : Gargi" });
     const { grid } = this.state;
     const startNode = grid[START_NODE_ROW][START_NODE_COL];
     const finishNode = grid[FINISH_NODE_ROW][FINISH_NODE_COL];
@@ -262,7 +262,7 @@ export default class PathfindingVisualizer extends Component {
           <small> [1 Block = 1 Time = 1 Weight]</small>
         </h2>
       );
-    } else if (topMessage === "Creator : Suhaan") {
+    } else if (topMessage === "Creator : Gargi") {
       button_task = <h3 className="running">Running...</h3>;
     }
 
@@ -336,7 +336,7 @@ export default class PathfindingVisualizer extends Component {
       </div>
     );
 
-    if (topMessage === "Creator : Suhaan") {
+    if (topMessage === "Creator : Gargi") {
       textBox = null;
     } else if (topMessage === "Shortest Path") {
       textBox = (
