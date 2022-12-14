@@ -1,4 +1,4 @@
-# Try this yourself.
+
 ### [Path Finding Visualizer](https://github.com/gargi1474/Dijkstra-s-algorithm-Visualizer)
 
 # Getting Started with Create React App
